@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_number": "1032508482648",
+    "project_id": "twista-384aa",
+    "storage_bucket": "twista-384aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032508482648:android:e6223833d6c49e051b962d",
+        "android_client_info": {
+          "package_name": "com.twista.egyptfull"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032508482648-2b6tuc1n3lja91v8udg6bter3ohqqrn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twista.egyptfull",
+            "certificate_hash": "207714976a7ffdda4e7414ae232826de268c759b"
+          }
+        },
+        {
+          "client_id": "1032508482648-60ct3heao64s4lsstnphrnkcdivjnnqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twista.egyptfull",
+            "certificate_hash": "35265dd7569480581957fcd5c484190d277d8541"
+          }
+        },
+        {
+          "client_id": "1032508482648-8lhn9kllpfk89j5v946hu751ohvq6p6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twista.egyptfull",
+            "certificate_hash": "e6e86da53b8522bbd87a5800f90be13503cc3cef"
+          }
+        },
+        {
+          "client_id": "1032508482648-jtjo7j88fqk962c2tmoc05bmv1rkaglv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twista.egyptfull",
+            "certificate_hash": "aeea35bcdc71e188d876079829bd82bb60bf80e3"
+          }
+        },
+        {
+          "client_id": "1032508482648-muenvl38jbr7hvti29g78q5e5tcipb9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twista.egyptfull",
+            "certificate_hash": "a0240b20c53b090640b8ab4431fff535e59c6fd1"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh-hBSlaaPU8bog8xIt-WAQmjJhZbYGx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032508482648-5edj631qhqa7b3142165rsmjt1kadvt0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1032508482648-b9e6l4veu481grq4n27thuu0eeo1frut.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.twista.egyptfull"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032508482648:android:dfdef05435cea93b1b962d",
+        "android_client_info": {
+          "package_name": "com.twista.egyptfull_delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh-hBSlaaPU8bog8xIt-WAQmjJhZbYGx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032508482648-5edj631qhqa7b3142165rsmjt1kadvt0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1032508482648-b9e6l4veu481grq4n27thuu0eeo1frut.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.twista.egyptfull"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032508482648:android:cb9a1fea6bd5cb221b962d",
+        "android_client_info": {
+          "package_name": "com.twista.egyptfull_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh-hBSlaaPU8bog8xIt-WAQmjJhZbYGx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032508482648-5edj631qhqa7b3142165rsmjt1kadvt0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1032508482648-b9e6l4veu481grq4n27thuu0eeo1frut.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.twista.egyptfull"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
