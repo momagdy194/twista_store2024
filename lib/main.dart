@@ -34,13 +34,19 @@ Future<void> main() async {
   Map<String, Map<String, String>> languages = await di.init();
 
   await Firebase.initializeApp(
+    name: 'dev',
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
- var deviceToken = (await FirebaseMessaging.instance.getToken());
+try{
+  var deviceToken = (await FirebaseMessaging.instance.getToken());
   print("deviceTokendeviceTokendeviceToken ${deviceToken}");
+}catch(e){
+  print('eee ${e}');
+}
   NotificationBody? body;
   try {
+
     if (GetPlatform.isMobile) {
       final RemoteMessage? remoteMessage =
           await FirebaseMessaging.instance.getInitialMessage();

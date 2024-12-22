@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1000163153346-eh60ikhvo9kvj524gp5jq5p7l31j905q.apps.googleusercontent.com</string>
+	<string>1032508482648-51vh0huilr4t4esgmigt79e7vi74vdbh.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1000163153346-eh60ikhvo9kvj524gp5jq5p7l31j905q</string>
+	<string>com.googleusercontent.apps.1032508482648-51vh0huilr4t4esgmigt79e7vi74vdbh</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1032508482648-2b6tuc1n3lja91v8udg6bter3ohqqrn4.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDjxRDIuTc6ErANoftU-FtgLBSUxMlLCeA</string>
+	<string>AIzaSyBLWQBwW-MrAnVaOyaB_6DRCO6gh5W0INA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1000163153346</string>
+	<string>1032508482648</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.sixamtech.TwistaStore</string>
+	<string>com.twista.egyptfullStore</string>
 	<key>PROJECT_ID</key>
-	<string>ammart-8885e</string>
+	<string>twista-384aa</string>
 	<key>STORAGE_BUCKET</key>
-	<string>ammart-8885e.appspot.com</string>
+	<string>twista-384aa.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1000163153346:ios:f05f70ccbf7831ba06b25b</string>
+	<string>1:1032508482648:ios:31e271bd34004a981b962d</string>
 </dict>
 </plist>

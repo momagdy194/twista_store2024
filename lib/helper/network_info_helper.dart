@@ -10,16 +10,16 @@ class NetworkInfoHelper {
   NetworkInfoHelper(this.connectivity);
 
   Future<bool> get isConnected async {
-    ConnectivityResult result = await connectivity.checkConnectivity();
-    return result != ConnectivityResult.none;
+    List<ConnectivityResult> result = await connectivity.checkConnectivity();
+    return !result.contains(ConnectivityResult.none);
   }
 
   static void checkConnectivity(BuildContext context) {
-    Connectivity().onConnectivityChanged.listen((ConnectivityResult result) {
+    Connectivity().onConnectivityChanged.listen((List result) {
       if(Get.find<SplashController>().firstTimeConnectionCheck) {
         Get.find<SplashController>().setFirstTimeConnectionCheck(false);
-      }else {
-        bool isNotConnected = result == ConnectivityResult.none;
+      }else {print('resultresultresult ${result}');
+        bool isNotConnected = result.contains(ConnectivityResult.none);
         isNotConnected ? const SizedBox() : ScaffoldMessenger.of(Get.context!).hideCurrentSnackBar();
         ScaffoldMessenger.of(Get.context!).showSnackBar(SnackBar(
           backgroundColor: isNotConnected ? Colors.red : Colors.green,

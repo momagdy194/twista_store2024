@@ -964,12 +964,12 @@ class _OrderDetailsScreenState extends State<OrderDetailsScreen> with WidgetsBin
                 padding: const EdgeInsets.all(Dimensions.paddingSizeSmall),
                 child: CustomButtonWidget(
                   onPressed: () {
-                    _allowPermission().then((access) {
-                      Get.dialog(Dialog(
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(Dimensions.radiusSmall)),
-                        child: InVoicePrintScreen(order: order, orderDetails: orderController.orderDetailsModel, isPrescriptionOrder: isPrescriptionOrder, dmTips: dmTips!),
-                      ));
-                    });
+                    // _allowPermission().then((access) {
+                    //   Get.dialog(Dialog(
+                    //     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(Dimensions.radiusSmall)),
+                    //     child: InVoicePrintScreen(order: order, orderDetails: orderController.orderDetailsModel, isPrescriptionOrder: isPrescriptionOrder, dmTips: dmTips!),
+                    //   ));
+                    // });
                   },
                   icon: Icons.local_print_shop,
                   buttonText: 'print_invoice'.tr,

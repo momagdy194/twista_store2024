@@ -72,6 +72,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'twista-384aa.appspot.com',
     androidClientId: '1032508482648-2b6tuc1n3lja91v8udg6bter3ohqqrn4.apps.googleusercontent.com',
     iosClientId: '1032508482648-ntr6hf6eiie1783u9g6dhrc9hu4vk216.apps.googleusercontent.com',
-    iosBundleId: 'com.sixamtech.TwistaStore',
+    iosBundleId: 'com.twista.egyptfullStore',
   );
 }
