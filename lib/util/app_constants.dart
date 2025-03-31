@@ -3,13 +3,13 @@ import 'package:sixam_mart_store/util/images.dart';
 
 class AppConstants {
   static const String appName = 'Twista Store';
-  static const double appVersion = 3; ///Flutter SDK: 3.22.3
+  static const double appVersion = 5; ///Flutter SDK: 3.22.3
 
   static const String fontFamily = 'Roboto';
   static const double limitOfPickedVideoSizeInMB = 50;
   static const double maxSizeOfASingleFile = 10;
 
-  static const String baseUrl = 'https://eg-admin.twissta.com';
+  static const String baseUrl = 'https://admin.twista.eg';
 
   static const String configUri = '/api/v1/config';
   static const String loginUri = '/api/v1/auth/vendor/login';
